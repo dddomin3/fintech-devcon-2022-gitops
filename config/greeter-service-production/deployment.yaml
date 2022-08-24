@@ -16,7 +16,7 @@ spec:
         environment: production
     spec:
       containers:
-        - image: dddomin3/greeter-server@sha256:79902cdb29fde54319d542b301d30c3e165811e64faa2376e80fdc62b1b3d9bc
+        - image: dddomin3/greeter-server@sha256:abb0b7610d6da0889d37f06085d68966de226b19ed2b1a71a380fde0dd3abfe4
           imagePullPolicy: IfNotPresent
           name: greeter-server
           ports:
